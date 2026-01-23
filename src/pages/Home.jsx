@@ -3,7 +3,7 @@ export default function Home() {
     <div className="page">
       <div className="thin-font section hero">
         <h1>
-          <span className="brand">MacroUni</span> builds transparent, data-driven nutrition tracking that empowers students and faculty to live healthier lives.
+          <span className="brand">MacroUni</span> is a transparent, data driven nutrition tracking platform that empowers students and faculty to live healthier lives.
         </h1>
       </div>
       <div className="section">

@@ -26,7 +26,7 @@ export default function Header() {
       <nav role="navigation" aria-label="Main navigation">
         {/* <Link to="/">Home</Link> */}
         <Link to="/about" className="link">About</Link>
-        <Link to="/demo" className="link">Demo</Link>
+        <Link to="/showcase" className="link">Showcase</Link>
         {/* <Link to="/developer">Developer</Link> */}
         {/* <Link to="/privacy">Privacy</Link> */}
         {/* <Link to="/download" className="link">Download</Link> */}

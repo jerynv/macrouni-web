@@ -1,8 +1,8 @@
-import "../styles/Demo.css";
+import "../styles/Showcase.css";
 import { useState } from "react";
 import clsx from "clsx";
 
-export default function Demo() {
+export default function Showcase() {
   const [previewImage, setPreviewImage] = useState(null);
   // const journeySteps = [
   //   {
