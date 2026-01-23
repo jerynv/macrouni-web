@@ -73,6 +73,7 @@ html main .container {
 .step-content {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 4rem;
 }
 
@@ -124,10 +125,10 @@ html main .container {
 }
 
 .step-images {
-  flex: 1;
+
   display: flex;
   gap: 1.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
