@@ -316,7 +316,8 @@ main::-webkit-scrollbar {
 footer {
   flex-shrink: 0;
   background-color: var(--bg-color);
-  padding: 1rem;
+  padding: .25rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
