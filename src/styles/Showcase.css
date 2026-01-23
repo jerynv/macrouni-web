@@ -19,7 +19,6 @@
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
   color: var(--text-color);
-  /* background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); */
   /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; */
@@ -50,20 +49,44 @@ html main .container {
   animation: fadeInUp 0.8s ease forwards;
 }
 
-.journey-step:nth-child(1) { animation-delay: 0.1s; }
-.journey-step:nth-child(2) { animation-delay: 0.2s; }
-.journey-step:nth-child(3) { animation-delay: 0.3s; }
-.journey-step:nth-child(4) { animation-delay: 0.4s; }
-.journey-step:nth-child(5) { animation-delay: 0.5s; }
-.journey-step:nth-child(6) { animation-delay: 0.6s; }
-.journey-step:nth-child(7) { animation-delay: 0.7s; }
-.journey-step:nth-child(8) { animation-delay: 0.8s; }
+.journey-step:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.journey-step:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.journey-step:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.journey-step:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.journey-step:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.journey-step:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.journey-step:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.journey-step:nth-child(8) {
+  animation-delay: 0.8s;
+}
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -150,11 +173,9 @@ img.flipped {
   scale: 1.1;
 }
 
-.step-images img:hover {
-}
+.step-images img:hover {}
 
-.step-images img.flipped:hover {
-}
+.step-images img.flipped:hover {}
 
 @media (max-width: 1024px) {
   .demo-hero h1 {
@@ -242,6 +263,32 @@ img.flipped {
 
   .step-images img {
     height: 350px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .step-content {
+    flex-direction: column !important;
+    gap: 1.5rem;
+  }
+
+  .step-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .step-text p {
+    font-size: 0.95rem;
+  }
+
+  .step-images img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .step-text {
+    width: 90% !important;
   }
 }
 
