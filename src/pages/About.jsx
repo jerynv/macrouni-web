@@ -25,7 +25,7 @@ export default function About() {
       {/* make a ai part */}
       <div className="section">
         <h2>AI-Powered Support</h2>
-        <p>MacroUni leverages cutting-edge AI technology in combination with+ algorithms to provide users with intelligent meal suggestions, nutrition insights, and real-time assistance. Our AI adapts to your preferences and goals, making it easier than ever to stay on track.</p>
+        <p>MacroUni leverages cutting edge AI technology in combination with+ algorithms to provide users with intelligent meal suggestions, nutrition insights, and real-time assistance. Our AI adapts to your preferences and goals, making it easier than ever to stay on track.</p>
       </div>
       <div className="section">
         <h2>Join Us</h2>

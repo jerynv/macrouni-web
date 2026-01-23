@@ -68,7 +68,7 @@ export default function Demo() {
       title: "Welcome to Your Dashboard",
       images: ["home-left.png"],
       description:
-        "Start your day with a clear, personalized overview of your nutrition goals, daily macro targets, and real-time progress. Your dashboard brings together everything that matters—recent meals, remaining macros, and upcoming meal plans—so you always know exactly where you stand without digging through menus.",
+        "Start your day with a clear, personalized overview of your nutrition goals, daily macro targets, and real time progress. Your dashboard brings together everything that matters; recent meals, remaining macros, and upcoming meal plans, so you always know exactly where you stand without digging through menus.",
       alignment: "left",
       flipImages: [false],
     },
@@ -84,7 +84,7 @@ export default function Demo() {
       title: "Explore Menu Options",
       images: ["dining-hall-menu-options-item-left.png", "dining-hall-menu-options-portrait.png"],
       description:
-        "Dive deeper into each dining hall menu by browsing structured meal categories and individual items. Every option includes a complete nutritional breakdown—calories, macros, and key nutrients—so you can make informed choices without guessing or estimating.",
+        "Dive deeper into each dining hall menu by browsing structured meal categories and individual items. Every option includes a complete nutritional breakdown; calories, macros, and key nutrients; so you can make informed choices without guessing or estimating.",
       alignment: "left",
       flipImages: [false, false],
     },
@@ -100,7 +100,7 @@ export default function Demo() {
       title: "Search & Scan",
       images: ["search-left.png", "search-result-from-barcode-scanner-portrait.png"],
       description:
-        "Quickly find any food using powerful search or scan barcodes for instant nutrition details. Whether it’s a packaged snack, drink, or supplement, you’ll get accurate information fast—no manual entry required.",
+        "Quickly find any food using powerful search or scan barcodes for instant nutrition details. Whether it’s a packaged snack, drink, or supplement, you’ll get accurate information fast no manual entry required.",
       alignment: "left",
       flipImages: [false, false],
     },
@@ -108,7 +108,7 @@ export default function Demo() {
       title: "Add Custom Foods",
       images: ["flipped/search-backup-add-food-if-not-available-left.png"],
       description:
-        "If a food isn’t already in the database, you’re never stuck. Create custom food entries with full nutrition data, save them for future use, and track meals your way—perfect for homemade meals, local options, or specialty items.",
+        "If a food isn’t already in the database, you’re never stuck. Create custom food entries with full nutrition data, save them for future use, and track meals your way; perfect for homemade meals, local options, or specialty items.",
       alignment: "right",
       flipImages: [true],
     },
@@ -116,7 +116,7 @@ export default function Demo() {
       title: "AI-Powered Guidance",
       images: ["ai-assistance-portrait.png"],
       description:
-        "Access built-in AI support that adapts to your goals and habits. Get personalized nutrition insights, smarter meal suggestions, and clear answers to your health questions—all designed to help you stay consistent and confident in your choices.",
+        "Access built in AI support that adapts to your goals and habits. Get personalized nutrition insights, smarter meal suggestions, and clear answers to your health questions, all designed to help you stay consistent and confident in your choices.",
       alignment: "left",
       flipImages: [false],
     },
@@ -124,7 +124,7 @@ export default function Demo() {
       title: "Personalize Your Experience",
       images: ["flipped/settings-left.png"],
       description:
-        "Fine-tune the app to match your lifestyle by setting goals, dietary preferences, and tracking rules that work for you. From macro targets to food restrictions, everything is customizable so the experience feels personal, not generic.",
+        "Fine tune the app to match your lifestyle by setting goals, dietary preferences, and tracking rules that work for you. From macro targets to food restrictions, everything is customizable so the experience feels personal, not generic.",
       alignment: "right",
       flipImages: [true],
     },
