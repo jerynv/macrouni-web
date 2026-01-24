@@ -1,3 +1,5 @@
+import '../styles/pages/Home.css';
+
 export default function Home() {
   return (
     <div className="page">
@@ -8,8 +10,8 @@ export default function Home() {
       </div>
       <div className="section">
         <p>
-          <span className="">MacroUni for Students</span> is a comprehensive macro tracking platform designed specifically for university and college students, helping you
-          balance nutrition with your academic lifestyle.
+          <span className="bolded solid">MacroUni for Students</span> is a comprehensive macro tracking platform designed specifically for university and college students, helping
+          you balance nutrition with your academic lifestyle.
         </p>
       </div>
       <div className="section">
@@ -20,10 +22,11 @@ export default function Home() {
       </div>
       <div className="section">
         <p>
-          {" "}
-          <span>MacroUni Ai</span> leverages cutting-edge AI technology to offer personalized nutrition advice, meal suggestions, and real-time tracking, making it easier than ever to meet your health goals.
+          <span className="bolded solid">MacroUni Ai</span> leverages cutting-edge AI technology to offer personalized nutrition advice, meal suggestions, and real-time tracking, making it easier than ever
+          to meet your health goals.
         </p>
       </div>
+      {/* <a href="/showcase" className="link showcase-button">Showcase</a> */}
     </div>
   );
 }

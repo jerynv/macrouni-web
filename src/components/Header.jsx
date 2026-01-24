@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
+import "../styles/components/Header.css";
 
 export default function Header() {
   const [theme, setTheme] = useState(() => {
@@ -48,7 +49,7 @@ export default function Header() {
             </svg>
           </button>
           <div className="theme-switch" onClick={toggleTheme} role="group" aria-label="Theme switcher">
-            <div className="theme-indicator" style={theme == "light" ? { left: 0 } : { left: "50%" }}></div>
+            <div className="theme-indicator" style={theme == "light" ? { left: "0%" } : { left: "50%" }}></div>
             <button className="theme-button" onClick={() => null(true)} aria-label="Light theme" aria-pressed={theme === "light"}>
               {/* sun icon */}
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 30 30" aria-hidden="true">

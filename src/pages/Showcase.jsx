@@ -1,4 +1,4 @@
-import "../styles/Showcase.css";
+import "../styles/pages/Showcase.css";
 import { useState } from "react";
 import clsx from "clsx";
 

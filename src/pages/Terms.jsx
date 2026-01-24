@@ -1,6 +1,8 @@
+import "../styles/pages/Terms.css";
+
 export default function Terms() {
   return (
-    <div className="page restricted-width">
+    <div className="page terms-page restricted-width">
       <div className="hero header-section">
         <h1>Terms of Service</h1>
         <p className="hard-bolded">Last Updated: January 21, 2026</p>

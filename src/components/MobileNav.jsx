@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/MobileNav.css";
+import "../styles/components/MobileNav.css";
 
 export default function MobileNav({ isOpen, onClose }) {
   if (!isOpen) return null;

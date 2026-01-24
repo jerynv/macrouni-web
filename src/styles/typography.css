@@ -1,0 +1,25 @@
+.special-font, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.thin-font {
+  font-weight: 300;
+}
+
+.semi-bolded {
+  font-weight: 600;
+}
+
+.bolded {
+  font-weight: 700;
+}
+
+html body .hard-bolded {
+  font-weight: 800;
+}
+
+html body #root .solid {
+  color: var(--text-color);
+}
