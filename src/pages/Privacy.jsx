@@ -5,61 +5,73 @@ export default function Privacy() {
     <div className="privacy-page page restricted-width">
       <div className="hero header-section">
         <h1>Privacy Policy</h1>
-        <p className="hard-bolded">Last updated: January 21, 2026</p>
+        <p className="hard-bolded">Last updated: January 29, 2026</p>
       </div>
 
       <div className="section">
-        <h2>Your Data, Your Control</h2>
+        <h2>Introduction</h2>
         <p>
-          MacroUni is designed to operate entirely on your device. All data you enter, generate, or interact with is processed locally and remains under your control. We do not
-          sell, share, or distribute user data to third parties.
+          MacroUni ("we", "our", or "us") is committed to being transparent about how we collect, use, and protect your information. This Privacy Policy explains our data practices when you use our application.
         </p>
       </div>
 
       <div className="section">
-        <h2>Data We Process</h2>
+        <h2>Information We Collect</h2>
         <p>
-          To function correctly, MacroUni processes the information you provide and the actions you take within the app, such as nutrition entries, preferences, and usage-related
-          interactions. This processing happens internally within the app and is not transmitted to external servers.
+          To provide and improve our services, we collect information you provide directly, such as account details, nutrition entries, preferences, goals, and usage data. We may also collect device information, app interactions, and other data to enhance your experience.
         </p>
-        <p>MacroUni does not collect personally identifiable information for remote storage, tracking, or profiling purposes.</p>
+      </div>
+
+      <div className="section">
+        <h2>How We Use Your Information</h2>
+        <p>
+          We use the information we collect to operate and improve MacroUni, personalize your experience, provide nutrition insights and recommendations, communicate with you about updates or changes, and ensure the security of our services.
+        </p>
       </div>
 
       <div className="section">
         <h2>Camera Access</h2>
         <p>
-          MacroUni may request access to your device’s camera solely for barcode scanning functionality. Camera input is processed in real time on your device and is not recorded,
-          stored, or sent to any server.
+          MacroUni may request access to your device's camera for barcode scanning functionality to help you log foods quickly and accurately.
         </p>
       </div>
 
       <div className="section">
-        <h2>Data Storage</h2>
+        <h2>Data Sharing</h2>
         <p>
-          All data is stored locally using your browser or device’s local storage. This means your information stays on your device unless you choose to remove it. You can delete
-          all stored data at any time through your browser settings or the in-app reset options.
+          We do not sell your personal information. We may share data with service providers who help us operate our platform, or as required by law. Any third parties we work with are bound by confidentiality obligations.
         </p>
       </div>
 
       <div className="section">
-        <h2>Third-Party Services</h2>
-        <p>MacroUni does not use third-party analytics, advertising networks, social media integrations, or tracking technologies. No external services receive your app data.</p>
+        <h2>Data Security</h2>
+        <p>
+          We implement appropriate technical and organizational measures to protect your information. However, no method of transmission or storage is 100% secure, and we cannot guarantee absolute security.
+        </p>
       </div>
 
       <div className="section">
-        <h2>Security</h2>
+        <h2>Your Choices</h2>
         <p>
-          Because your data never leaves your device, its security depends on your device’s protections. We recommend using strong passwords, biometric locks, and keeping your
-          operating system and browser up to date.
+          You can access, update, or delete your account information through the app settings. You may also contact us to request information about the data we hold or to exercise your privacy rights.
         </p>
       </div>
 
       <div className="section">
         <h2>Changes to This Policy</h2>
-        <p>If this policy changes, the “Last updated” date will be revised accordingly. Continued use of MacroUni after updates indicates acceptance of the revised policy.</p>
+        <p>
+          If this policy changes, the "Last updated" date will be revised accordingly. Continued use of MacroUni after updates indicates acceptance of the revised policy.
+        </p>
       </div>
-        <div className="spacer" style={{ height: "50px", width: "100%" }}></div>
 
+      <div className="section">
+        <h2>Contact Us</h2>
+        <p>
+          If you have questions about this Privacy Policy, please contact us at dev.vjeryn@gmail.com.
+        </p>
+      </div>
+
+      <div className="spacer" style={{ height: "50px", width: "100%" }}></div>
     </div>
   );
 }
