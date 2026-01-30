@@ -1,6 +1,8 @@
+import "../styles/pages/privacy.css";
+
 export default function Privacy() {
   return (
-    <div className="page restricted-width">
+    <div className="privacy-page page restricted-width">
       <div className="hero header-section">
         <h1>Privacy Policy</h1>
         <p className="hard-bolded">Last updated: January 21, 2026</p>
@@ -56,6 +58,8 @@ export default function Privacy() {
         <h2>Changes to This Policy</h2>
         <p>If this policy changes, the “Last updated” date will be revised accordingly. Continued use of MacroUni after updates indicates acceptance of the revised policy.</p>
       </div>
+        <div className="spacer" style={{ height: "50px", width: "100%" }}></div>
+
     </div>
   );
 }

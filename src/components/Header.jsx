@@ -59,7 +59,7 @@ export default function Header() {
                 ></path>
               </svg>
             </button>
-            <button className="theme-button" onClick={() => null(false)} aria-label="Dark theme" aria-pressed={theme === "dark"}>
+            <button className="theme-button" onClick={() => null(false)} aria-label="Dark theme" aria-pressed={theme === "dark"}j>
               {/* moon icon */}
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
                 <path

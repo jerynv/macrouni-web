@@ -1,6 +1,8 @@
+import "../styles/pages/Developer.css";
+
 export default function Developer() {
   return (
-    <div className="page restricted-width">
+    <div className="developer-page page restricted-width">
       <div className="hero header-section">
         <h1>Meet the Developer</h1>
       </div>

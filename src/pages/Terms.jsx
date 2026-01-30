@@ -139,7 +139,8 @@ export default function Terms() {
           Terms.
         </p>
       </div>
-      <p style={{ marginTop: "0.5rem", marginBottom: "0.5rem", fontSize: "0.875rem", color: "var(--secondary-color)" }}>© {new Date().getFullYear()} MacroUni. All rights reserved.</p>
+      <p style={{ marginTop: "0.5rem", marginBottom: "1.5rem", fontSize: "0.875rem", color: "var(--secondary-color)" }}>© {new Date().getFullYear()} MacroUni. All rights reserved.</p>
+
     </div>
   );
 }
