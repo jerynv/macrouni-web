@@ -18,10 +18,6 @@ export default function About() {
           At the core of MacroUni is an advanced algorithm that customizes nutrition plans based on individual goals, dietary preferences, and campus dining options. This ensures that users receive tailored recommendations that fit their unique lifestyles.
         </p>
       </div>
-      {/* <div className="section">
-        <h2>Open Source</h2>
-        <p>MacroUni is built with transparency at its core. Our platform is open source, allowing the community to contribute, audit, and improve the tools that help thousands of students and faculty members maintain healthier lifestyles.</p>
-      </div> */}
       {/* make a ai part */}
       <div className="section">
         <h2>AI-Powered Support</h2>

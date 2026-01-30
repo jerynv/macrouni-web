@@ -64,14 +64,6 @@ export default function Terms() {
       </div>
 
       <div className="section">
-        <h2>Open Source Disclaimer</h2>
-        <p>
-          MacroUni is an open-source project provided “as is.” We make no guarantees regarding the quality, security, correctness, or suitability of the software, including
-          third-party dependencies or community contributions.
-        </p>
-      </div>
-
-      <div className="section">
         <h2>Prohibited Uses</h2>
         <p>
           You agree not to misuse the Service, interfere with its operation, attempt to bypass security measures, scrape data, misrepresent your identity, or violate any applicable
